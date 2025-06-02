@@ -52,15 +52,15 @@ TRAINING_CONFIG = {
 
 
 # Base directory
-HOME_DIR = "/home/cam/Documents/Server/Video-Swin-Transformer"
+HOME_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # File paths
 PATHS = {
     'home_directory': HOME_DIR,
-    'plot_directory': os.path.join(HOME_DIR, "sandbox_codes", "plots"),
-    'checkpoint_directory': os.path.join(HOME_DIR, "sandbox_codes", "checkpoints"),
-    'new_checkpoints_dir': os.path.join(HOME_DIR, "sandbox_codes", "checkpoints", "new"),
-    'benchmark_checkpoints_dir': os.path.join(HOME_DIR, "sandbox_codes", "checkpoints", "benchmark")
+    'plot_directory': os.path.join(HOME_DIR, "plots"),
+    'checkpoint_directory': os.path.join(HOME_DIR, "checkpoints"),
+    'new_checkpoints_dir': os.path.join(HOME_DIR, "checkpoints", "new"),
+    'benchmark_checkpoints_dir': os.path.join(HOME_DIR, "checkpoints", "benchmark")
 }
 
 
@@ -75,7 +75,7 @@ MODEL_CONFIG['state_size'] = (
 # Mode configuration
 MODE_CONFIG = {
     'mode': 'test',  # 'train' or 'test'
-    'phase': 'phase_3',
+    'phase': 'phase_3', # 'phase_1', 'phase_2', 'phase_3', or 'phase_4'
     'phase_checkpoints': {
         'phase_1': 2500,
         'phase_2': 6500,
