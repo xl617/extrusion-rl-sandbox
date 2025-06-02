@@ -1,6 +1,6 @@
-# DQN Controller
+# Sandbox Scripts for "An Efficient and Uncertainty-Aware Reinforcement Learning Framework for Quality Assurance in Extrusion Additive Manufacturing"
 
-A Deep Q-Network (DQN) based controller for temperature and flow rate optimization.
+This repository contains the implementation of a Deep Q-Network (DQN) based controller for temperature and flow rate optimization in extrusion additive manufacturing, as described in our paper.
 
 ## Quick Start
 
