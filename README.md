@@ -6,11 +6,13 @@ This repository contains the implementation of a Deep Q-Network (DQN) based cont
 
 ### 1. Environment Setup
 
+**It is recommended to use Python 3.8 for this project.**
+
 Create and activate a virtual environment:
 
 ```bash
-# Create virtual environment
-python -m venv venv
+# Create virtual environment with Python 3.8
+python3.8 -m venv venv
 
 # Activate on Windows
 venv\Scripts\activate
@@ -19,7 +21,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install requirements
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 2. Running the Code
@@ -92,3 +94,5 @@ Main dependencies:
 - SciPy
 
 See `requirements.txt` for complete list. 
+
+**Note:** You may need to adapt the version of PyTorch (`torch`) in `requirements.txt` to match your CUDA version and GPU.
