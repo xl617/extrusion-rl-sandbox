@@ -88,7 +88,7 @@ MODE_CONFIG = {
 # Reward function configuration
 REWARD_CONFIG = {
     'center': {
-        'flow_rate': 90,
+        'flow_rate': 100,
         'temperature': 210
     },
     'phase_1': {
