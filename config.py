@@ -103,6 +103,10 @@ REWARD_CONFIG = {
         'semi_long_axis': 20,
         'semi_short_axis': 10
     },
+    'phase_4': {
+        'semi_long_axis': 20,
+        'semi_short_axis': 10
+    },
     'angle': 70
 }
 
