@@ -96,3 +96,18 @@ Main dependencies:
 See `requirements.txt` for complete list. 
 
 **Note:** You may need to adapt the version of PyTorch (`torch`) in `requirements.txt` to match your CUDA version and GPU.
+
+
+## Citation
+
+If you use this repository in your research, please cite our paper:
+
+```bibtex
+@article{li2025efficient,
+  title={An efficient and uncertainty-aware reinforcement learning framework for quality assurance in extrusion additive manufacturing},
+  author={Li, Xiaohan and Pattinson, Sebastian},
+  journal={Additive Manufacturing},
+  pages={104912},
+  year={2025},
+  publisher={Elsevier}
+}
