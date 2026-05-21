@@ -85,15 +85,7 @@ All plots and logs are saved in the `plots` directory:
 └── plots/              # Output directory
 ```
 
-## Requirements
 
-Main dependencies:
-- PyTorch
-- NumPy
-- Matplotlib
-- SciPy
-
-See `requirements.txt` for complete list. 
 
 
 
