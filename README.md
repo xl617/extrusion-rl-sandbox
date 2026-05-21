@@ -1,6 +1,6 @@
 # Sandbox Scripts for "An Efficient and Uncertainty-Aware RL Framework for Quality Assurance in Extrusion AM"
 
-This repository contains the implementation of a Deep Q-Network (DQN) based controller for temperature and flow rate optimization in extrusion additive manufacturing, as described in our paper.
+This repository contains the implementation of a Deep Q-Network (DQN) based controller for temperature and flow rate optimization in extrusion additive manufacturing.
 
 ## Quick Start
 
@@ -95,7 +95,7 @@ Main dependencies:
 
 See `requirements.txt` for complete list. 
 
-**Note:** You may need to adapt the version of PyTorch (`torch`) in `requirements.txt` to match your CUDA version and GPU.
+
 
 
 ## Citation
